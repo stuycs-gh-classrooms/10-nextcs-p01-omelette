@@ -84,11 +84,14 @@ platform
 - METHODS
   - constructor
   - display
+  - followMouse
  
 grid
 - Instance variables:
   - rows
   - cols
+  - size
+  - color
 - METHODS
   - constructor
   - display
