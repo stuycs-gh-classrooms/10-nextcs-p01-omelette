@@ -23,13 +23,14 @@ This project will be completed in phases. The first phase will be to work on thi
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
 Grid
- - remains still 
+ - remains still
+ - resets when empty and reset button (probably in driver) is called 
 
 Ball
  - bounces, speed of ball increases
 
 Platform
- - movey moves, stores score
+ - moves using mouseX, stores score
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
@@ -37,6 +38,9 @@ What are some features that are not essential to the program, but you would like
  - ball changes color based on speed (7 colors = 7 speed types)
  - increase # of balls over time
  - timer
+ - image as bricks (potentially amogus is)
+ - settings (easy/hard, fast/slow)
+ - 
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -70,13 +74,13 @@ projectile
   - y
   - xSpeed
   - ySpeed
-  - speedMulti
+  - speedMulti //increases after ten hits of the brick
 - METHODS
   - constructor
   - display
   - collisionCheck
   - gameOver
-  - bounce ???
+  - bounce
 
 platform
 - Instance variables:
@@ -92,6 +96,7 @@ grid
   - cols
   - size
   - color
+  - grid[][]
 - METHODS
   - constructor
   - display
