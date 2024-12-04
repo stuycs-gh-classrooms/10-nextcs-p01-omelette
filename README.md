@@ -36,12 +36,13 @@ What are some features that are not essential to the program, but you would like
 
  - ball changes color based on speed (7 colors = 7 speed types)
  - increase # of balls over time
+ - timer
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- hmm
+- n/a
 
 2D Array:
 - grid
@@ -80,7 +81,6 @@ projectile
 platform
 - Instance variables:
   - x
-  - 
 - METHODS
   - constructor
   - display
