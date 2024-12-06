@@ -8,7 +8,7 @@ class Grid {
   int numCols = NUM_COLS;
   int size = ballSize;
   color ballColor = colorArray[difficulty];
-  grid[][]
+  Brick[][] grid = new Brick[numRows][numCols];
 
 
     void Grid () {
