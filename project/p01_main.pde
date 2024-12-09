@@ -2,8 +2,10 @@ int NUM_ROWS;
 int NUM_COLS;
 int ballSize;
 color ballColor;
+color brickColor;
 int gameScore;
 int difficulty;
+int paddleWidth;
 int timer;
 boolean start;
 color[] colorArray = {#ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3};
@@ -19,6 +21,8 @@ void setup () {
 }
 
 void draw() {
+    background (#000001);
+    text (timer, 570, 20);
   if (frameCount % 60 == 0) {
     timer++;
   }

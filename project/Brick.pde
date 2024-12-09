@@ -3,10 +3,13 @@
  */
 
 class Brick {
+  int numRows = NUM_ROWS;
+  int numCols = NUM_COLS;
+  int 
 
-
-
-  void Brick () {
+  void Brick (color c) {
+    fill (c);
+    rect( 
   }
 
   void display() {
