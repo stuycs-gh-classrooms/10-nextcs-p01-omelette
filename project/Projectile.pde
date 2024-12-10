@@ -4,15 +4,24 @@ class Projectile {
   int collisionScore;
   int xSpeed;
   int ySpeed;
+  PVector center;
 
 
   void Projectile () {
-     
+    gameScore = 0;
+    collisionScore = 0;
+    xSpeed = 1;
+    ySpeed = 1;
+    center = new PVector(0, 0); //placeholder
   }
 
-  void collisionCheck() {
+  void collision(int brickHeight) {
+    //idk how big bricks going to be so using width = 3*brickHeight ig and height = brickHeight
+    if ((center.y < brickHeight+center.y) || (center.y >= brickHeight+center.y)) {
+      //insert the same things i guess
+    }
   }
-  
+
   void display()
   {
     fill(c);
@@ -33,4 +42,4 @@ class Projectile {
     }
     center.x+= xspeed;
     center.y+= yspeed;
-}
+  }
